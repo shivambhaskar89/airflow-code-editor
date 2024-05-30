@@ -3,9 +3,12 @@ ARG AIRFLOW_VERSION
 
 FROM apache/airflow:${AIRFLOW_VERSION}
 ARG PLUGIN_VERSION
-LABEL org.opencontainers.image.source="https://github.com/andreax79/airflow-code-editor"
-LABEL org.opencontainers.image.url="https://github.com/andreax79/airflow-code-editor"
-LABEL org.opencontainers.image.documentation="https://github.com/andreax79/airflow-code-editor"
+#LABEL org.opencontainers.image.source="https://github.com/andreax79/airflow-code-editor"
+#LABEL org.opencontainers.image.url="https://github.com/andreax79/airflow-code-editor"
+#LABEL org.opencontainers.image.documentation="https://github.com/andreax79/airflow-code-editor"
+LABEL org.opencontainers.image.source="https://github.com/shivambhaskar89/airflow-code-editor"
+LABEL org.opencontainers.image.url="https://github.com/shivambhaskar89/airflow-code-editor"
+LABEL org.opencontainers.image.documentation="https://github.com/shivambhaskar89/airflow-code-editor"
 LABEL org.opencontainers.image.description="Apache Airflow & Airfow Code Editor - edit DAGs in browser, file managing interface, git"
 LABEL org.opencontainers.image.licenses="Apache-2.0"
 LABEL org.opencontainers.image.title="Production Airflow Code Editor Image"
