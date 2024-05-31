@@ -5,15 +5,15 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreax79/airflow-code-editor.git"
+    "url": "git+https://github.com/shivambhaskar89/airflow-code-editor.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreax79/airflow-code-editor/issues"
+    "url": "https://github.com/shivambhaskar89/airflow-code-editor.git/issues"
   },
-  "homepage": "https://github.com/andreax79/airflow-code-editor#readme",
+  "homepage": "https://github.com/shivambhaskar89/airflow-code-editor#readme",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "watch": "vite build --watch",
